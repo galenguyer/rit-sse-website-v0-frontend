@@ -13,6 +13,7 @@ import {
   NavbarToggler
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import Logo from '../images/sse-logo.png';
 import { useState } from 'react';
 
 const NavBar = () => {
@@ -25,7 +26,7 @@ const NavBar = () => {
   return (
     <Navbar expand="sm">
       <NavbarBrand tag={Link} to="/">
-        <span>SSE @ RIT</span>
+        <img src={Logo} alt="SSE Logo" />
       </NavbarBrand>
       <NavbarToggler onClick={toggleNavbarIsOpen} />
       <Collapse isOpen={navbarIsOpen} navbar>
