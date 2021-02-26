@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  frontend:
+    build: .
+    container_name: rit-sse-website-frontend
+    entrypoint:
+      - "/usr/sbin/nginx"
+      - "-g daemon off;"
+    ports:
+      - "8080:80"
