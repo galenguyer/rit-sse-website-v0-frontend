@@ -3,17 +3,23 @@
     padding-right: 12%;
 
     background-color: #1e5a8d;
+
+    .navbar-nav {
+        margin-left: auto;
+    }
     .navbar-brand {
         color: white;
     }
     .navbar-collapse {
-        text-align: right;
+        text-align: left;
     }
     .navbar-brand:hover {
         color: #8ba9c3;
     }
     .nav-item {
         .nav-link {
+            font-size: 18px;
+
             color: white;
         }
         .nav-link:hover, .nav-link:active {

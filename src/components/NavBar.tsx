@@ -29,7 +29,7 @@ const NavBar = () => {
       </NavbarBrand>
       <NavbarToggler onClick={toggleNavbarIsOpen} />
       <Collapse isOpen={navbarIsOpen} navbar>
-        <Nav className="ml-auto" navbar>
+        <Nav navbar>
           <NavItem>
             <NavLink tag={Link} to="/events">
               Events
