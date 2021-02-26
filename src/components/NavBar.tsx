@@ -29,7 +29,7 @@ const NavBar = () => {
       </NavbarBrand>
       <NavbarToggler onClick={toggleNavbarIsOpen} />
       <Collapse isOpen={navbarIsOpen} navbar>
-        <Nav className="mr-auto" navbar>
+        <Nav className="ml-auto" navbar>
           <NavItem>
             <NavLink tag={Link} to="/events">
               Events
@@ -45,7 +45,12 @@ const NavBar = () => {
               Go Links
             </NavLink>
           </NavItem>
-          <Dropdown nav isOpen={dropdownIsOpen} toggle={toggleDropdownIsOpen}>
+          <Dropdown
+            nav
+            left
+            isOpen={dropdownIsOpen}
+            toggle={toggleDropdownIsOpen}
+          >
             <DropdownToggle nav caret>
               About
             </DropdownToggle>

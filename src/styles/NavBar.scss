@@ -1,7 +1,13 @@
 .navbar {
+    padding-left: 12%;
+    padding-right: 12%;
+
     background-color: #1e5a8d;
     .navbar-brand {
         color: white;
+    }
+    .navbar-collapse {
+        text-align: right;
     }
     .navbar-brand:hover {
         color: #8ba9c3;
@@ -16,5 +22,8 @@
     }
     .dropdown-menu {
         background-color: #1e5a8d;
+        .dropdown-item:hover {
+            background-color: #1e5a8d;
+        }
     }
 }
