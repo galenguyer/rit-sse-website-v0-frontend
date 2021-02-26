@@ -23,7 +23,7 @@ const NavBar = () => {
   const toggleDropdownIsOpen = () => setDropdownIsOpen(!dropdownIsOpen);
 
   return (
-    <Navbar light expand="sm">
+    <Navbar expand="sm">
       <NavbarBrand tag={Link} to="/">
         <span>SSE @ RIT</span>
       </NavbarBrand>
