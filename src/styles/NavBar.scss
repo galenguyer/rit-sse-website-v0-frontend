@@ -17,7 +17,7 @@
     }
     .nav-item {
         .nav-link {
-            font-size: 20px;
+            font-size: 16px;
 
             color: white;
         }
@@ -27,6 +27,7 @@
     }
     .dropdown-menu {
         background-color: #1e5a8d;
+        left: -240px;
         .dropdown-item:hover {
             background-color: #1e5a8d;
         }

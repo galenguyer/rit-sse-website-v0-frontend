@@ -46,12 +46,7 @@ const NavBar = () => {
               Go Links
             </NavLink>
           </NavItem>
-          <Dropdown
-            nav
-            left
-            isOpen={dropdownIsOpen}
-            toggle={toggleDropdownIsOpen}
-          >
+          <Dropdown nav isOpen={dropdownIsOpen} toggle={toggleDropdownIsOpen}>
             <DropdownToggle nav caret>
               About
             </DropdownToggle>
