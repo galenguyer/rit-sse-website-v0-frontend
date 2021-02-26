@@ -1,3 +1,4 @@
+import '../styles/NavBar.scss';
 import {
   Collapse,
   Dropdown,
