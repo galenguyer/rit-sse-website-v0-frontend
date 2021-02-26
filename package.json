@@ -2,6 +2,16 @@
   "name": "rit-sse-website",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galenguyer/rit-sse-website.git"
+  },
+  "author": "Galen Guyer <galen@galenguyer.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/galenguyer.com/rit-sse-website/issues"
+  },
+  "homepage": "https://github.com/galenguyer/rit-sse-website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -57,5 +67,8 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "4",
     "prettier": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=14.15.0"
   }
 }
