@@ -2,7 +2,12 @@
     padding-left: 12%;
     padding-right: 12%;
     background-color: #1e5a8d;
-
+    
+    .navbar-hero {
+        img {
+            max-height: 40px;
+        }
+    }
     .navbar-nav {
         margin-left: auto;
     }
