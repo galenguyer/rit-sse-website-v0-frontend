@@ -11,7 +11,6 @@
   "bugs": {
     "url": "https://github.com/galenguyer.com/rit-sse-website/issues"
   },
-  "homepage": "https://github.com/galenguyer/rit-sse-website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
